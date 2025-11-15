@@ -56,7 +56,10 @@ function LessonExperience() {
               <Sparkles className="h-4 w-4" />
               Shadow Mode
             </span>
-            <button className="inline-flex items-center gap-2 rounded-sm border border-zinc-200 px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:border-zinc-900 hover:text-zinc-900">
+            <button
+              className="inline-flex items-center gap-2 rounded-sm border border-zinc-200 px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:border-zinc-900 hover:text-zinc-900"
+              aria-label="Pause the current lesson"
+            >
               <PauseCircle className="h-4 w-4" />
               Pause
             </button>
