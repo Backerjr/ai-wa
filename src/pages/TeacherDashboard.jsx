@@ -42,7 +42,10 @@ function TeacherDashboard() {
         <section className="rounded-sm border border-zinc-200 bg-white">
           <div className="flex items-center justify-between border-b border-zinc-200 px-6 py-4">
             <h2 className="text-lg font-serif text-zinc-900">Student Progress</h2>
-            <button className="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:text-zinc-900">
+            <button
+              className="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:text-zinc-900"
+              aria-label="Export student progress report"
+            >
               Export report
               <ArrowUpRight className="h-4 w-4" />
             </button>
