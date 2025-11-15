@@ -20,11 +20,17 @@ function TeacherDashboard() {
             </p>
           </div>
           <div className="flex gap-3">
-            <button className="inline-flex items-center gap-3 rounded-sm border border-zinc-900 px-5 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-zinc-800 bg-zinc-900">
+            <button
+              className="inline-flex items-center gap-3 rounded-sm border border-zinc-900 px-5 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-zinc-800 bg-zinc-900"
+              aria-label="Assign Homework"
+            >
               <ClipboardList className="h-4 w-4" />
               Assign Homework
             </button>
-            <button className="inline-flex items-center gap-3 rounded-sm border border-zinc-200 px-5 py-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:border-zinc-900 hover:text-zinc-900">
+            <button
+              className="inline-flex items-center gap-3 rounded-sm border border-zinc-200 px-5 py-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:border-zinc-900 hover:text-zinc-900"
+              aria-label="Review Audio"
+            >
               <Headphones className="h-4 w-4" />
               Review Audio
             </button>
