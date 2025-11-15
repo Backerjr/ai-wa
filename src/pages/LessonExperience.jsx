@@ -78,7 +78,7 @@ function LessonExperience() {
                     : 'rounded-bl-none border-zinc-200 bg-white text-zinc-900'
                 }`}
               >
-                <div className="mb-2 flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-zinc-400">
+                <div className="mb-2 flex items-center justify-between text-xs uppercase tracking-[0.2em] text-zinc-400">
                   <span>{turn.name}</span>
                   <span>{turn.timestamp}</span>
                 </div>
