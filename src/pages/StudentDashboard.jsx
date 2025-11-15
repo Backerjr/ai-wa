@@ -62,11 +62,11 @@ function StudentDashboard() {
         </div>
       </header>
 
-      <section className="px-6 md:px-12">
+      <section id="library" className="px-6 md:px-12">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-serif text-zinc-900 md:text-2xl">Recent Lessons</h2>
           <a
-            href="#"
+            href="#library"
             className="hidden items-center gap-2 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 md:inline-flex"
           >
             View Library
