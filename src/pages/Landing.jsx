@@ -41,6 +41,8 @@ function Landing() {
             <a
               href="#curriculum"
               className="inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 transition-colors hover:text-zinc-900"
+              aria-label="Scroll to the curriculum section below"
+              title="Scroll to the curriculum section below"
             >
               Preview the curriculum
               <ArrowRight className="h-4 w-4" />
