@@ -94,7 +94,10 @@ function LessonExperience() {
           <div className="flex-1 text-xs text-zinc-500">
             Hold to speak. Release to send your line.
           </div>
-          <button className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-zinc-900 bg-zinc-900 text-white transition-transform hover:scale-105">
+          <button
+            className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-zinc-900 bg-zinc-900 text-white transition-transform hover:scale-105"
+            aria-label="Hold to record and release to send"
+          >
             <Mic className="h-6 w-6" />
           </button>
         </div>
