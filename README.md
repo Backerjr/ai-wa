@@ -1,17 +1,17 @@
-# RozmoWA - Premium English Learning Platform
+# AI-WA - AI-Powered English Learning Platform
 
 <div align="center">
 
-![RozmoWA Logo](https://via.placeholder.com/400x100/000000/FFFFFF?text=RozmoWA)
+![AI-WA Logo](https://via.placeholder.com/400x100/000000/FFFFFF?text=AI-WA)
 
-**Learn English like a conversation, not a textbook**
+**Learn English with intelligent, adaptive AI technology**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-success)](https://your-demo-url.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react)](https://react.dev)
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 
-[Live Demo](https://your-demo-url.com) • [Documentation](./DEVELOPER_GUIDE.md) • [Report Bug](https://github.com/yourusername/rozmowa/issues)
+[Live Demo](https://your-demo-url.com) • [Documentation](./docs/DEVELOPER_GUIDE.md) • [Report Bug](https://github.com/yourusername/ai-wa/issues)
 
 </div>
 
@@ -19,36 +19,36 @@
 
 ## 📖 About
 
-RozmoWA is a boutique English learning platform that breaks away from traditional gamified approaches. Inspired by editorial design and powered by AI, it offers a premium, human-centered learning experience.
+AI-WA is a next-generation English learning platform that combines beautiful editorial design with powerful AI technology. Built for modern learners who want more than gamification—they want genuine language mastery.
 
 ### ✨ What Makes It Different
 
-- **🎨 Editorial Design** - Looks like a high-end magazine, not a typical learning app
-- **🤖 AI-Powered** - Teachers can generate complete lessons and quizzes with AI
-- **💭 Philosophy-Driven** - Focus on understanding and connection, not points and streaks
-- **👥 Human-First** - Learning presented as a personal journey, not a race
+- **🤖 AI-Powered** - Intelligent lesson and quiz generation using Claude AI
+- **🎨 Editorial Design** - Elegant interface inspired by premium magazines
+- **💭 Philosophy-Driven** - Focus on understanding and connection, not just metrics
+- **👥 Human-First** - Learning as a personal journey, not a competition
 
 ---
 
 ## 🎯 Features
 
 ### For Students
-- ✅ **Beautiful Dashboard** - Editorial-style interface with elegant typography
+- ✅ **Beautiful Dashboard** - Clean, editorial-style interface
 - ✅ **Interactive Lessons** - Multi-step lessons with reflection and practice
-- ✅ **Progress Tracking** - Visualize your learning journey
-- ✅ **Achievement System** - Celebrate milestones without pressure
+- ✅ **Progress Tracking** - Visualize your learning journey elegantly
+- ✅ **AI Assistant** - Personal AI tutor available 24/7
 - ✅ **Mobile Optimized** - Seamless experience on all devices
 
 ### For Teachers
-- ✅ **Student Narratives** - See progress as stories, not just numbers
+- ✅ **Student Narratives** - See progress as stories, not just data
 - ✅ **AI Quiz Generator** - Create comprehensive quizzes in seconds
 - ✅ **AI Lesson Builder** - Generate complete lesson plans instantly
-- ✅ **Analytics Dashboard** - Track class performance with elegant visualizations
+- ✅ **Analytics Dashboard** - Elegant visualization of class performance
 
 ### For Administrators
-- ✅ **Annual Report View** - Data presented like a premium business report
+- ✅ **Annual Report View** - Data presented beautifully
 - ✅ **User Management** - Handle students, teachers, and content
-- ✅ **Analytics & Insights** - Platform-wide metrics and trends
+- ✅ **Platform Analytics** - Comprehensive metrics and insights
 
 ---
 
@@ -63,10 +63,10 @@ npm >= 9.0.0
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rozmowa.git
+git clone https://github.com/yourusername/ai-wa.git
 
 # Navigate to directory
-cd rozmowa
+cd ai-wa
 
 # Install dependencies
 npm install
@@ -81,7 +81,7 @@ Visit `http://localhost:5173` to see the app running.
 
 ## 🎨 Design Philosophy
 
-RozmoWA follows three core principles:
+AI-WA follows three core principles:
 
 1. **Less is More** - Minimal UI with maximum impact
 2. **Whitespace is Luxury** - Generous spacing creates premium feel
@@ -109,11 +109,11 @@ Accents:
 ### Student Dashboard
 ![Dashboard](https://via.placeholder.com/800x500/FAFAFA/000000?text=Student+Dashboard)
 
+### AI-Powered Tools
+![AI Tools](https://via.placeholder.com/800x500/FAFAFA/000000?text=AI+Quiz+Creator)
+
 ### Lesson Experience
 ![Lesson](https://via.placeholder.com/800x500/FAFAFA/000000?text=Lesson+View)
-
-### AI Tools
-![AI Tools](https://via.placeholder.com/800x500/FAFAFA/000000?text=AI+Quiz+Creator)
 
 </div>
 
@@ -127,15 +127,18 @@ Accents:
 - **Lucide React** - Icons
 - **Vite** - Build tool
 
+### AI Integration
+- **Anthropic Claude** - Quiz and lesson generation
+- **Natural Language Processing** - Understanding learner needs
+
 ### Backend (Recommended)
 - **Node.js + Express** or **Next.js**
 - **PostgreSQL** - Database
 - **Redis** - Caching
-- **Anthropic Claude** - AI features
+- **AWS S3** - Media storage
 
 ### Infrastructure
 - **Vercel/Netlify** - Hosting
-- **AWS S3** - Media storage
 - **GitHub Actions** - CI/CD
 
 ---
@@ -143,7 +146,7 @@ Accents:
 ## 📦 Project Structure
 
 ```
-rozmowa/
+ai-wa/
 ├── src/
 │   ├── components/     # Reusable UI components
 │   ├── pages/          # Page components
@@ -171,11 +174,11 @@ This repository includes 12 fully functional prototypes:
 7. **Onboarding Flow** - User setup
 8. **Component Library** - Design system docs
 9. **Profile & Settings** - User management
-10. **AI Quiz Creator** - Generate quizzes
-11. **AI Lesson Creator** - Generate lessons
+10. **AI Quiz Creator** - Generate quizzes with AI
+11. **AI Lesson Creator** - Generate lessons with AI
 12. **Interactive Demo** - Guided tour
 
-See [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md) for detailed documentation.
+See [DEVELOPER_GUIDE.md](./docs/DEVELOPER_GUIDE.md) for detailed documentation.
 
 ---
 
@@ -217,7 +220,7 @@ npm run test:coverage
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/rozmowa)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ai-wa)
 
 ### Manual Deployment
 ```bash
@@ -226,6 +229,8 @@ npm run build
 
 # The dist/ folder is ready to deploy
 ```
+
+See [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
 
 ---
 
@@ -248,12 +253,14 @@ npm run build
 - [ ] Quiz generation
 - [ ] Lesson generation
 - [ ] Personalized recommendations
+- [ ] Adaptive learning paths
 
 ### Phase 4 - Advanced Features 📋
 - [ ] Live video classes
-- [ ] Voice recording
+- [ ] Voice recording & analysis
 - [ ] Teacher-student messaging
 - [ ] Mobile native apps
+- [ ] Multilingual support
 
 ---
 
@@ -286,9 +293,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Support
 
-- 📧 Email: support@rozmowa.com
-- 💬 Discord: [Join our community](https://discord.gg/rozmowa)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/rozmowa/issues)
+- 📧 Email: support@ai-wa.com
+- 💬 Discord: [Join our community](https://discord.gg/ai-wa)
+- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/ai-wa/issues)
 - 📖 Docs: [Full Documentation](./docs)
 
 ---
@@ -304,18 +311,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/rozmowa?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/rozmowa?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/rozmowa?style=social)
+![GitHub stars](https://img.shields.io/github/stars/yourusername/ai-wa?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/ai-wa?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/yourusername/ai-wa?style=social)
 
 ---
 
 <div align="center">
 
-**[⬆ back to top](#rozmowa---premium-english-learning-platform)**
+**[⬆ back to top](#ai-wa---ai-powered-english-learning-platform)**
 
-Made with ❤️ by the RozmoWA team
+Made with ❤️ by the AI-WA team
 
-[Website](https://rozmowa.com) • [Twitter](https://twitter.com/rozmowa) • [LinkedIn](https://linkedin.com/company/rozmowa)
+[Website](https://ai-wa.com) • [Twitter](https://twitter.com/ai-wa) • [LinkedIn](https://linkedin.com/company/ai-wa)
 
 </div>
