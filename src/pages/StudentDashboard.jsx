@@ -88,7 +88,10 @@ function StudentDashboard() {
                   </div>
                 </div>
                 <h3 className="mt-4 text-2xl font-serif text-zinc-900">{lesson.title}</h3>
-                <button className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-zinc-900 transition-colors hover:text-zinc-600">
+                <button
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-zinc-900 transition-colors hover:text-zinc-600"
+                  aria-label={`${lesson.status} ${lesson.title} lesson`}
+                >
                   <PlayCircle className="h-5 w-5" />
                   {lesson.status}
                 </button>
