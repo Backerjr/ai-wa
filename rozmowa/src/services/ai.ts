@@ -331,7 +331,7 @@ const generateGenericQuestions = (topic: string, difficulty: string): QuizQuesti
  */
 export const generateQuiz = async (
   topic: string,
-  difficulty: string = 'intermediate'
+  difficulty: QuizDifficulty = 'intermediate'
 ): Promise<Quiz> => {
   // Simulate AI processing time (2-3 seconds for suspense)
   const processingTime = 2000 + Math.random() * 1000;
