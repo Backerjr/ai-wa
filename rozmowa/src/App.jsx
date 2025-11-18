@@ -7,7 +7,8 @@ import LessonExperience from './pages/LessonExperience.jsx';
 import ProgressView from './pages/ProgressView.jsx';
 import ProfileSettings from './pages/ProfileSettings.jsx';
 import TeacherDashboard from './pages/TeacherDashboard.jsx';
-import AIQuizCreator from './pages/AIQuizCreator.jsx';
+import AIQuizCreatorOld from './pages/AIQuizCreator.jsx';
+import AIQuizCreator from './teacher/AIQuizCreator.tsx';
 import AILessonCreator from './pages/AILessonCreator.jsx';
 import AdminPanel from './pages/AdminPanel.jsx';
 import Onboarding from './pages/Onboarding.jsx';
@@ -35,7 +36,8 @@ function App() {
 
         {/* Teacher Routes */}
         <Route path="/teacher" element={<TeacherDashboard />} />
-        <Route path="/teacher/quiz" element={<AIQuizCreator />} />
+        <Route path="/teacher/quiz" element={<AIQuizCreatorOld />} />
+        <Route path="/teacher/create/quiz" element={<AIQuizCreator />} />
         <Route path="/teacher/create" element={<AILessonCreator />} />
 
         {/* Admin Routes */}
