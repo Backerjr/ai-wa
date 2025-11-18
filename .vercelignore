@@ -1,0 +1,5 @@
+node_modules
+.git
+ai-wa
+*.log
+.DS_Store

@@ -3,5 +3,11 @@
   "outputDirectory": "rozmowa/dist",
   "installCommand": "cd rozmowa && npm install",
   "devCommand": "cd rozmowa && npm run dev",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
