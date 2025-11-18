@@ -328,6 +328,7 @@ const generateGenericQuestions = (topic: string, difficulty: string): QuizQuesti
 /**
  * Main AI generation function
  * Simulates AI processing with realistic delay and contextual output
+ * NOTE: This is a client-side only implementation with no backend API calls
  */
 export type QuizDifficulty = 'beginner' | 'intermediate' | 'advanced';
 
