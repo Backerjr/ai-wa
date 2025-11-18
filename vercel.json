@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd rozmowa && npm install && npm run build",
+  "outputDirectory": "rozmowa/dist",
+  "installCommand": "cd rozmowa && npm install",
+  "devCommand": "cd rozmowa && npm run dev",
+  "framework": null
+}
