@@ -25,7 +25,7 @@ export interface Quiz {
  * These provide realistic, contextual questions based on input
  */
 const QUESTION_BANKS: Record<string, (difficulty: string) => QuizQuestion[]> = {
-  coffee: (difficulty) => [
+  coffee: (_difficulty) => [
     {
       id: '1',
       question: 'What is the ideal water temperature for brewing pour-over coffee?',
@@ -63,7 +63,7 @@ const QUESTION_BANKS: Record<string, (difficulty: string) => QuizQuestion[]> = {
     }
   ],
   
-  'present perfect': (difficulty) => [
+  'present perfect': (_difficulty) => [
     {
       id: '1',
       question: 'Which sentence correctly uses the present perfect tense?',
@@ -111,7 +111,7 @@ const QUESTION_BANKS: Record<string, (difficulty: string) => QuizQuestion[]> = {
     }
   ],
 
-  'climate change': (difficulty) => [
+  'climate change': (_difficulty) => [
     {
       id: '1',
       question: 'What is the primary greenhouse gas contributing to climate change?',
@@ -154,7 +154,7 @@ const QUESTION_BANKS: Record<string, (difficulty: string) => QuizQuestion[]> = {
     }
   ],
 
-  'photosynthesis': (difficulty) => [
+  'photosynthesis': (_difficulty) => [
     {
       id: '1',
       question: 'What is the primary pigment involved in photosynthesis?',
@@ -197,7 +197,7 @@ const QUESTION_BANKS: Record<string, (difficulty: string) => QuizQuestion[]> = {
     }
   ],
 
-  'shakespeare': (difficulty) => [
+  'shakespeare': (_difficulty) => [
     {
       id: '1',
       question: 'In which play does the famous line "To be, or not to be" appear?',
@@ -329,6 +329,8 @@ const generateGenericQuestions = (topic: string, difficulty: string): QuizQuesti
  * Main AI generation function
  * Simulates AI processing with realistic delay and contextual output
  */
+export type QuizDifficulty = 'beginner' | 'intermediate' | 'advanced';
+
 export const generateQuiz = async (
   topic: string,
   difficulty: QuizDifficulty = 'intermediate'
